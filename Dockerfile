@@ -1,4 +1,4 @@
 FROM openjdk:11.0
 EXPOSE 8080
-ADD target/mvnwebapp.jar mvnwebapp.jar
-ENTRYPOINT ["java","-jar",mvnwebapp.jar"]
+ADD target/mvnwebapp.war mvnwebapp.war
+ENTRYPOINT ["java","-jar",mvnwebapp.war"]
