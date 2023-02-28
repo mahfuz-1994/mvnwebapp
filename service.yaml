@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: Deployment # Kubernetes resource kind we are creating for mvnwebapp
 metadata:
   name: mvnwebapp
@@ -13,7 +13,7 @@ spec:
         app: mvnwebapp
     spec:
       containers:
-        - name: mvnwebapp
+        - name: mvncontainer
           image: mahfuzlove/mvn0.1 # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
