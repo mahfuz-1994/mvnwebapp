@@ -7,10 +7,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>mvnwebapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <properties>
-      <java.version>11</java.version>
-      <junit.jupiter.version>5.4.0</junit.jupiter.version>
-  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
