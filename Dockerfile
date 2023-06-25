@@ -1,4 +1,5 @@
-FROM tomcat 
+FROM openjdk:11.0
+#tomcat 
 #openjdk:11.0
 EXPOSE 8080
 ADD target/mvnwebapp.war mvnwebapp.war
